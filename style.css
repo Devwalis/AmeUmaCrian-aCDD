@@ -1,2 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+/* Classes e formatações gerais*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

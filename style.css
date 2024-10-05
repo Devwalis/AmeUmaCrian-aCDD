@@ -8,3 +8,23 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+:root{
+
+/*cores*/
+    --Menu-color: #DDD1FF;
+    --Home-color: #F0CEEB;
+    --botão-contato-color: #E9B4E1;
+    --Quem-somos: #E8B4CB;
+    --Projeto: #DDD1FF;
+    --resultados: #CEC9F9;
+    --footer: #A7A0E8;
+     
+/*fontes*/
+
+    --fonte-de-texto: Lato;
+    --fonte-de-titulo: Fredoka;
+
+
+
+}

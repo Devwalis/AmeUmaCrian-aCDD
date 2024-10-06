@@ -54,9 +54,12 @@ h2.ritulo{
 
 /*Estilos de cabeçalho*/
 
+/*----------------MENU----------------*/
+
 header{
-    padding: 20px 4%;
+    padding: 10px 4%;
     background: var(--Menu-color);
+    
     
 }
 header > .interface{
@@ -91,6 +94,8 @@ header nav.menu-desktop ul li{
     transform: scale(1.05);
 }
 
+/*--------------HOME---------------*/
+
 section.topo-do-site{
     padding: 40px 4%;
     background-color: var(--Home-color);
@@ -114,20 +119,28 @@ section.topo-do-site .flex{
     white-space: pre-line;
 }
 .detalhe{
+   position:relative;
+   
     
-    align-items: center;
-    margin-left: 270px;
+    
+
+   
 }
 .topo-do-site h1{
     font-family: var(--fonte-de-titulo);
     font-size: 25px;
+    letter-spacing: 3px;
+    line-height: 3;
 }
 .topo-do-site p{
     font-family: var(--fonte-de-texto);
     padding: 10px 10px;
     letter-spacing: 1px;
+    white-space: 10px;
+    line-height: 1.5;
 }
 .btn-contato button{
+    
     padding: 10px  100px;
     font-size: 20px;
     
@@ -147,8 +160,10 @@ section.topo-do-site .flex{
     
 }
 
-.topo-do-site .detalhe img{
+.topo-do-site .detalhe1 img{
     position: relative;
+    left: 310px;
+   bottom: 10px;
     animation: flutuar 3s ease-in-out infinite alternate;
 }
 .img-topo-site img{
@@ -200,7 +215,94 @@ section.topo-do-site .flex{
 
 
 
+}
+
+/*----------QUEM SOMOS------------*/
+
+
+section.quemSomos{
+    padding: 40px 4%;
+    background-color: var(--Quem-somos);
+    flex-wrap: wrap;
+}
+.foto1{
+    width: 330px;
+    height: 410px;
+    
 
 }
+.foto2{
+    width: 400px;
+}
+.container {
+    position: relative; /* Para permitir o posicionamento dos elementos filhos */
+    width: 700px;
+    height: 360px;
+    background-image: url('/img/good-team-animate.svg'); 
+    background-size: cover; 
+    background-position: center; 
+   
+}
+.img1{
+    position: absolute;
+    top: -100px; /* Ajusta a posição vertical da imagem da frente */
+    left: -20px;
+ 
+}
+section.quemSomos{
+    flex-wrap: wrap;
+}
+section.quemSomos h1{
+    font-size: 30px;
+    font-family:var(--fonte-de-titulo);
+    text-align: center;
+    letter-spacing: 2px;
+    position: relative;
+    top: -20px;
+
+    
+}
+section.quemSomos .flex{
+    gap: 5rem;
+}
+
+section.quemSomos .flex  .txt-quem-somos{
+gap: 20rem;
+margin: 60px;
+flex-wrap: wrap;
+}
+
+.detalhe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 150px;
+    
+}
+.txt-quem-somos{
+    font-size: 16px;
+   
+    background-color: #ffffff44;
+    flex-wrap: wrap;
+    
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    width: 1000px;
+    height: 240px;
+    
+}
+
+.txt-quem-somos p {
+    font-size: 16px;
+    font-family: var(--fonte-de-texto);
+    text-align: center;
+    padding: 10px;
+    word-spacing: 8px;
+
+}
+
+
 
 

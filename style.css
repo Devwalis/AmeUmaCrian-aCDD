@@ -91,9 +91,116 @@ header nav.menu-desktop ul li{
     transform: scale(1.05);
 }
 
+section.topo-do-site{
+    padding: 40px 4%;
+    background-color: var(--Home-color);
+    flex-wrap: wrap;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+
+}
+.img-topo-site img{
+    width:310px;
+    height: 240px;
+}
+.txt-topo-site p{
+    padding:  10px 10px;
+    letter-spacing: 1px;
+    white-space: pre-line;
+}
+.detalhe{
+    
+    align-items: center;
+    margin-left: 270px;
+}
+.topo-do-site h1{
+    font-family: var(--fonte-de-titulo);
+    font-size: 25px;
+}
+.topo-do-site p{
+    font-family: var(--fonte-de-texto);
+    padding: 10px 10px;
+    letter-spacing: 1px;
+}
+.btn-contato button{
+    padding: 10px  100px;
+    font-size: 20px;
+    
+    color: black;
+    font-family: var(--fonte-de-titulo);
+    background-color: var(--botão-contato-color);
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.2;
+
+}
+.txt-topo-site{
+    padding: 10px 10px;
+    letter-spacing: 1px;
+    margin-top: 10px 10px 10px  10px;
+    
+}
+
+.topo-do-site .detalhe img{
+    position: relative;
+    animation: flutuar 3s ease-in-out infinite alternate;
+}
+.img-topo-site img{
+    background-repeat: no-repeat;
+    animation: showSteps 2s ease-in forwards;
+
+}
+.img-topo-site:nth-child(1){
+   top: 20%;
+   left: 10%;
+   animation-delay: 0.5s;
+}
+.img-topo-site:nth-child(2){
+    top: 40%;
+    left: 25%;
+    animation-delay: 0.5s;
+ }
+ .img-topo-site:nth-child(3){
+    top: 60%;
+    left: 40%;
+    animation-delay: 0.5s;
+ }
+ .img-topo-site:nth-child(4){
+    top: 80%;
+    left: 55%;
+    animation-delay: 1.5s;
+ }
+
+ @keyframes showSteps{
+    0%{
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+
+ }
+
+@keyframes flutuar {
+    0% {
+        top:0
+    }
+    100%{
+        top: 20px;
+
+    }
 
 
 
 
+}
 
 

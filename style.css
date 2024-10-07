@@ -110,7 +110,7 @@ section.topo-do-site .flex{
 
 }
 .img-topo-site img{
-    width:310px;
+    width:350px;
     height: 240px;
 }
 .txt-topo-site p{
@@ -226,17 +226,28 @@ section.quemSomos{
     flex-wrap: wrap;
 }
 .foto1{
+    position: relative;
     width: 330px;
     height: 410px;
+    left: 100px;
+    object-fit: cover;
     
 
+}
+
+#frontImage[src*="micheline.png"] {
+     /* Define um tamanho específico para a segunda imagem */
+    height: auto;
+    position: relative;
+    bottom: -100px;
+    left: 120px;
 }
 .foto2{
     width: 400px;
 }
 .container {
     position: relative; /* Para permitir o posicionamento dos elementos filhos */
-    width: 700px;
+    width: 600px;
     height: 360px;
     background-image: url('/img/good-team-animate.svg'); 
     background-size: cover; 

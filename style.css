@@ -379,6 +379,41 @@ section.resultados .flex .container2{
 
 }
 
+/*-------------------FOOTER-----------------*/
+
+footer{
+    background-color: var(--footer);
+    padding: 20px;
+}
+footer .logo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-right: 60rem;
+}
+.logoFooter:hover{
+    transform: scale(1.20);
+}
+
+footer .logo-footer .logoFooter{
+    width: 70px;
+    height: 70px;
+    
+}
+
+footer .flex{
+    justify-content: space-around;
+    gap: 10rem;
+}
+.border{
+    border-bottom: 2px solid #000000;
+    
+
+ 
+}
+
+
 
 
 

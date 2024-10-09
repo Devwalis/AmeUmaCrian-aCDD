@@ -412,6 +412,10 @@ footer .flex{
 
  
 }
+footer .border a{
+    font-family: var(--fonte-de-texto);
+    font-size: 2.5rem;
+}
 
 
 

@@ -99,12 +99,14 @@ header nav.menu-desktop ul li{
 }
 
 /*------------MENU-MOBILE---------*/
-
+.btn-abrir-menu{
+    display: none;
+}
 
 /*--------------HOME---------------*/
 
 section.topo-do-site{
-    padding: 40px 4%;
+    padding: 200px 4%;
     background-color: var(--Home-color);
     flex-wrap: wrap;
 }
@@ -230,7 +232,8 @@ section.topo-do-site .flex{
 section.quemSomos{
     
     background-color: var(--Quem-somos);
-    flex-wrap: wrap;
+    padding: 80px;
+    
 }
 .foto1{
     position: relative;
@@ -267,20 +270,20 @@ section.quemSomos{
     left: -20px;
  
 }
-section.quemSomos{
-    flex-wrap: wrap;
-}
+
 section.quemSomos h1{
     font-size: 30px;
     font-family:var(--fonte-de-titulo);
     text-align: center;
     letter-spacing: 2px;
     position: relative;
+    bottom: 70px;
     
 
     
 }
 section.quemSomos .flex{
+
     gap: 5rem;
 }
 

@@ -20,3 +20,8 @@
 1. Clone o repositório:
    ```bash
    git clone https://github.com/Devwalis/AmeUmaCrian-aCDD.git
+
+## Autores
+
+- [@Caio-Marinho](https://github.com/Caio-Marinho)
+- [@Devwalis](https://github.com/Devwalis)

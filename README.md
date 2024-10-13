@@ -15,3 +15,8 @@
 - **carrosel.js**: Arquivo JavaScript reponsavel pelo carrosel de imagens.
 - **index.html**: Arquivo HTML principal.
 - **README.md**: Arquivo de documentação do projeto.
+
+## Instalação
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Devwalis/AmeUmaCrian-aCDD.git

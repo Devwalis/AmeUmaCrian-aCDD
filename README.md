@@ -8,10 +8,10 @@ A ação central do projeto é realizar atividades de voluntariado para criança
 ### Propósito do Site
 O site do projeto "Ame Como uma Criança" foi criado com o intuito de aumentar a visibilidade dessa iniciativa, facilitando o engajamento da comunidade e incentivando a participação de voluntários e doadores. Através do site, as pessoas poderão:
 
-Conhecer mais sobre o projeto e seus objetivos.
-Entender como suas doações e apoio impactam diretamente a vida de crianças em casas de acolhimento infantil.
-Realizar doações de forma prática, como por meio de Pix ou outros meios.
-Acompanhar as atividades e eventos realizados, além de se inspirar a colaborar com iniciativas semelhantes.
+- Conhecer mais sobre o projeto e seus objetivos.
+- Entender como suas doações e apoio impactam diretamente a vida de crianças em casas de acolhimento infantil.
+- Realizar doações de forma prática, como por meio de Pix ou outros meios.
+- Acompanhar as atividades e eventos realizados, além de se inspirar a colaborar com iniciativas semelhantes.
 
 ## Front-end
 ![HTML5](https://img.shields.io/badge/-HTML-black?logo=HTML5&style=social)

@@ -268,7 +268,7 @@ section.quemSomos{
     flex-wrap: wrap;
 }
 section.quemSomos h1{
-    font-size: 30px;
+    font-size: 35px;
     font-family:var(--fonte-de-titulo);
     text-align: center;
     letter-spacing: 2px;

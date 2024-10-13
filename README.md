@@ -1,7 +1,7 @@
-# Projeto Ame como uma Criança
+# Projeto "Ame como uma Criança"
+O projeto "Ame Como uma Criança" é uma iniciativa da turma A do programa Com.Domínio Digital 4.0, desenvolvido pelo Instituto Aliança. O objetivo do programa é desenvolver competências técnicas em tecnologia e também habilidades socioemocionais.
 
 ## O que é o projeto?
-O projeto "Ame Como uma Criança" é uma iniciativa da turma A do programa Com.Domínio Digital 4.0, desenvolvido pelo Instituto Aliança. O objetivo do programa é desenvolver competências técnicas em tecnologia e também habilidades socioemocionais.
 
 A ação central do projeto é realizar atividades de voluntariado para crianças que vivem em casas de acolhimento infantil. Através de atividades recreativas e educativas, buscamos promover alegria, carinho e atenção. Além disso, contribuímos para o desenvolvimento emocional e social dessas crianças, criando um ambiente acolhedor e divertido. Também oferecemos doações de insumos essenciais para apoiar ainda mais as necessidades dessas crianças.
 

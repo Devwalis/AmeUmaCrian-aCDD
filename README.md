@@ -5,7 +5,13 @@ O projeto "Ame Como uma Criança" é uma iniciativa da turma A do programa Com.D
 
 A ação central do projeto é realizar atividades de voluntariado para crianças que vivem em casas de acolhimento infantil. Através de atividades recreativas e educativas, buscamos promover alegria, carinho e atenção. Além disso, contribuímos para o desenvolvimento emocional e social dessas crianças, criando um ambiente acolhedor e divertido. Também oferecemos doações de insumos essenciais para apoiar ainda mais as necessidades dessas crianças.
 
-### Propósito do Site
+### Inspiração do projeto:
+O mês das crianças é um momento crucial para refletir sobre a realidade das crianças em situações desfavoráveis, despertando a empatia na sociedade. Inspirados nessa problemática, visamos melhorar o bem-estar infantil e fortalecer laços comunitários. Cada iniciativa pode fazer uma grande diferença na vida dessas crianças.
+
+### Quem se beneficiará?
+Crianças de casas de acolhimento infantil do Centro do Recife.
+
+### Propósito de um Site
 O site do projeto "Ame Como uma Criança" foi criado com o intuito de aumentar a visibilidade dessa iniciativa, facilitando o engajamento da comunidade e incentivando a participação de voluntários e doadores. Através do site, as pessoas poderão:
 
 - Conhecer mais sobre o projeto e seus objetivos.

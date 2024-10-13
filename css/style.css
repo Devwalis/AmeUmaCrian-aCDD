@@ -269,6 +269,7 @@ section.quemSomos{
 }
 section.quemSomos h1{
     font-size: 35px;
+    top: 20px;
     font-family:var(--fonte-de-titulo);
     text-align: center;
     letter-spacing: 2px;
@@ -278,13 +279,17 @@ section.quemSomos h1{
     
 }
 section.quemSomos .flex{
+    position: relative;
+    top: 20px;
     gap: 5rem;
 }
 
 section.quemSomos .flex  .txt-quem-somos{
-gap: 20rem;
-margin: 60px;
-flex-wrap: wrap;
+    position: relative;
+    left: 20px;
+    gap: 20rem;
+    margin: 60px;
+    flex-wrap: wrap;
 }
 
 .detalhe{
@@ -329,6 +334,7 @@ section.projeto{
 
 section.projeto .interface h2{
     position: relative;
+    margin-top: 50px;
     font-size: 40px;
     font-family: var(--fonte-de-titulo);
     text-align: center;
@@ -357,6 +363,7 @@ section.resultados{
 
 section.resultados h2{
     text-align: center;
+    margin-top: 50px;
     font-size: 40px;
     font-family: var(--fonte-de-titulo);
     letter-spacing: 3px;

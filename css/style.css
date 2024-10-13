@@ -130,10 +130,6 @@ section.topo-do-site .flex{
 .detalhe{
    position:relative;
    
-    
-    
-
-   
 }
 .topo-do-site h1{
     font-family: var(--fonte-de-titulo);
@@ -149,10 +145,10 @@ section.topo-do-site .flex{
     line-height: 1.5;
 }
 .btn-contato button{
-    
+    position: relative;
     padding: 10px  100px;
     font-size: 20px;
-    
+    bottom: 20px;
     color: black;
     font-family: var(--fonte-de-titulo);
     background-color: var(--botão-contato-color);
@@ -169,10 +165,22 @@ section.topo-do-site .flex{
     
 }
 
+.txt-topo-site h1{
+    position: relative;
+    left: 10px;
+    font-size:40px ;
+    bottom: 50px;
+}
+
+.txt-topo-site p{
+    position: relative;
+    bottom: 90px;
+}
+
 .topo-do-site .detalhe1 img{
     position: relative;
-    left: 310px;
-   bottom: 10px;
+    left: 550px;
+    bottom: 10px;
     animation: flutuar 3s ease-in-out infinite alternate;
 }
 .img-topo-site img{
@@ -272,25 +280,30 @@ section.quemSomos{
 }
 
 section.quemSomos h1{
-    font-size: 30px;
+    font-size: 35px;
     font-family:var(--fonte-de-titulo);
     text-align: center;
     letter-spacing: 2px;
     position: relative;
-    bottom: 70px;
     
 
     
 }
 section.quemSomos .flex{
-
     gap: 5rem;
 }
 
 section.quemSomos .flex  .txt-quem-somos{
-gap: 20rem;
-margin: 60px;
-flex-wrap: wrap;
+    position: relative;
+    left: 20px;
+    gap: 20rem;
+    margin: 60px;
+    flex-wrap: wrap;
+    
+}
+section.quemSomos .flex  .txt-quem-somos p{
+    position: relative;
+    bottom: 20px;
 }
 
 .detalhe{
@@ -298,7 +311,8 @@ flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     position: relative;
-    left: 150px;
+    left: 50px;
+    top:50px ;
     
 }
 .txt-quem-somos{
@@ -335,6 +349,7 @@ section.projeto{
 
 section.projeto .interface h2{
     position: relative;
+    margin-top: 50px;
     font-size: 40px;
     font-family: var(--fonte-de-titulo);
     text-align: center;
@@ -363,6 +378,7 @@ section.resultados{
 
 section.resultados h2{
     text-align: center;
+    margin-top: 50px;
     font-size: 40px;
     font-family: var(--fonte-de-titulo);
     letter-spacing: 3px;

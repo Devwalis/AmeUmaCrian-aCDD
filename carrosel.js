@@ -22,10 +22,10 @@ function criarCarrosel() {
         currentIndex = (currentIndex + 1) % imagens.length;
 
         // Atualiza a imagem de fundo
-        container.style.backgroundImage = `url(/img/${imagens[currentIndex].background})`;
+        container.style.backgroundImage = `url(img/${imagens[currentIndex].background})`;
 
         // Atualiza a imagem da frente
-        frontImage.src = `/img/${imagens[currentIndex].front}`;
+        frontImage.src = `img/${imagens[currentIndex].front}`;
     }, 5000); // 5000 ms = 5 segundos
 }
 

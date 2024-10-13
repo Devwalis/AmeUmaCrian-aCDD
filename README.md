@@ -20,7 +20,7 @@ O site do projeto "Ame Como uma Criança" foi criado com o intuito de aumentar a
 - Acompanhar as atividades e eventos realizados, além de se inspirar a colaborar com iniciativas semelhantes.
 
 ### Protótipo
-[imagem](img/Protótipo.jpg)
+<img src="img/Protótipo.jpg" alt="Prótotipo do Projeto" width="400"/>
 
 Link para o site [Amecomoumacrianca](https://kaigabriel12.pythonanywhere.com/)
 

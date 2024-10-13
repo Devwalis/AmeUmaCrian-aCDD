@@ -125,10 +125,6 @@ section.topo-do-site .flex{
 .detalhe{
    position:relative;
    
-    
-    
-
-   
 }
 .topo-do-site h1{
     font-family: var(--fonte-de-titulo);
@@ -281,14 +277,11 @@ section.quemSomos{
 }
 section.quemSomos h1{
     font-size: 35px;
-    top: 20px;
     font-family:var(--fonte-de-titulo);
     text-align: center;
     letter-spacing: 2px;
     position: relative;
-    
-
-    
+    top: 50px;
 }
 section.quemSomos .flex{
     position: relative;
@@ -302,6 +295,11 @@ section.quemSomos .flex  .txt-quem-somos{
     gap: 20rem;
     margin: 60px;
     flex-wrap: wrap;
+    
+}
+section.quemSomos .flex  .txt-quem-somos p{
+    position: relative;
+    bottom: 20px;
 }
 
 .detalhe{
@@ -309,7 +307,8 @@ section.quemSomos .flex  .txt-quem-somos{
     flex-direction: column;
     align-items: center;
     position: relative;
-    left: 150px;
+    left: 50px;
+    top:50px ;
     
 }
 .txt-quem-somos{

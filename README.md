@@ -13,7 +13,7 @@ O site do projeto "Ame Como uma Criança" foi criado com o intuito de aumentar a
 - Realizar doações de forma prática, como por meio de Pix ou outros meios.
 - Acompanhar as atividades e eventos realizados, além de se inspirar a colaborar com iniciativas semelhantes.
 
-Link para o site[Amecomoumacrianca]('https://kaigabriel12.pythonanywhere.com/')
+Link para o site[@Amecomoumacrianca]('https://kaigabriel12.pythonanywhere.com/')
 
 ## Front-end
 ![HTML5](https://img.shields.io/badge/-HTML-black?logo=HTML5&style=social)

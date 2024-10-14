@@ -19,6 +19,9 @@ O site do projeto "Ame Como uma Criança" foi criado com o intuito de aumentar a
 - Realizar doações de forma prática, como por meio de Pix ou outros meios.
 - Acompanhar as atividades e eventos realizados, além de se inspirar a colaborar com iniciativas semelhantes.
 
+### Protótipo
+<img src="img/Protótipo.jpg" alt="Prótotipo do Projeto" width="1000"/>
+
 Link para o site [Amecomoumacrianca](https://kaigabriel12.pythonanywhere.com/)
 
 ## Front-end
@@ -31,7 +34,7 @@ Link para o site [Amecomoumacrianca](https://kaigabriel12.pythonanywhere.com/)
 
 - **CSS/**: Contém os arquivos `.css` que estilizam e tornam o HTML responsivo.
 - **icons/**: Contém os ícones utilizados no código.
-- **img/**: Contém as imagens utilizadas no código.
+- **img/**: Contém as imagens utilizadas no código e o protótipo.
 - **carrosel.js**: Arquivo JavaScript reponsavel pelo carrosel de imagens.
 - **index.html**: Arquivo HTML principal.
 - **README.md**: Arquivo de documentação do projeto.

@@ -98,10 +98,187 @@ header nav.menu-desktop ul li{
     transform: scale(1.05);
 }
 
+.menu-desktop a:hover{
+    color: var(--footer);
+    transform: scale(1.05);
+}
+
+.logo a:hover{
+    transform: scale(1.05);
+}
+
+.menu-mobile nav ul li a{
+    color: black;
+    font-size: 18px;
+    font-family: var(--fonte-de-texto);
+    padding: 20px 4%;
+    display: block;
+
+}
+
 /*------------MENU-MOBILE---------*/
+.menu-mobile.abrir-menu ~ .overlay-menu{
+    display: block;
+}
+.menu-mobile .abrir-menu{
+    width: 70%;
+}
+
+.btn-abrir-menu a img{
+    width: 30px;
+    height: 30px;
+
+}
+.overlay-menu{
+    background-color: #fed8ff70;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 88888;
+    display: none;
+}
+.menu-mobile{
+    background-color: #ffe0fcce;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 220px;
+    z-index: 99999;
+    width: 30%;
+    overflow: hidden;
+    transition: left 0.3s ease;
+}
+.menu-mobile nav ul{
+    text-align: right;
+}
+.menu-mobile nav ul li a{
+    color: black;
+    font-size: 18px;
+    font-family:var(--fonte-de-texto) ;
+    padding: 30px 4%;
+    display: block;
+}
+.menu-mobile nav ul li a:hover{
+    color: var(--footer);
+    transform: scale(1.05);
+
+}
+.menu-mobile .btn-fechar{
+    padding: 20px 8%;
+}
 .btn-abrir-menu{
     display: none;
 }
+
+/* ----------- SANDUICHE -------- */   
+
+@media screen and (max-width: 1020px){
+
+    
+    .content{
+        height: 160px;
+    }
+
+
+
+    .content .list-menu {
+        display: none;
+
+    }
+
+    
+.one,
+.two,
+.three {
+    width: 70%;
+    height: 5px;
+    background-color: black;
+    margin: 16px auto;
+    transition-duration: 0.5s;
+    border-radius: 300px;
+}
+
+.menu-toggle {
+    width: 60px;
+    height: 100px;
+    margin-top: 20px;
+   
+
+}
+
+.content.on .list-menu {
+    position: absolute;
+    top: 160px;
+    right: 10px;
+    bottom: 0;
+    width: 30vw;
+    height: 571px;
+    background-color: rgba(240, 147, 235, 0.199);
+    z-index: 99999;
+   
+}
+
+.content.on .menu-toggle {
+    right: 40px;
+    top: 20px;
+    color: #000000;
+}
+
+.content.on .list-menu {
+    display: block;
+}
+
+.content.on .list-menu li {
+    display: flex;
+    justify-content: center;
+}
+
+.content.on .list-menu li a {
+    font-size: 1rem;
+    padding: 50px 20px;
+   
+    
+}
+
+.content.on .menu-toggle .one {
+    transform: rotate(45deg) translate(3px, 17px);
+}
+
+.content.on .menu-toggle .two {
+    transform: rotate(-45deg) translate(-3px, -12px);
+}
+
+.content.on .menu-toggle .three {
+    opacity: 0;
+}
+
+}
+
+
+ 
+    section.topo-do-site .flex{
+        gap: 30px;
+    }
+
+    .btn-abrir-menu{
+        display: flex;
+    }
+    section.topo-do-site{
+        padding: 20px 8%;
+
+    }
+    .topo-do-site{
+        font-size: 30px;
+
+    }
+    .topo-do-site .img-topo-site img{
+        width: 100%;
+    }
+    
+
+
 
 /*--------------HOME---------------*/
 
@@ -127,6 +304,13 @@ section.topo-do-site .flex{
     letter-spacing: 1px;
     white-space: pre-line;
 }
+
+.btn-contato button:hover{
+    background-color:  var(--footer);
+    transform: scale(1.10);
+
+}
+
 .detalhe{
    position:relative;
    
@@ -179,9 +363,9 @@ section.topo-do-site .flex{
 
 .topo-do-site .detalhe1 img{
     position: relative;
-    left: 550px;
-    bottom: 10px;
-    animation: flutuar 3s ease-in-out infinite alternate;
+    left: 470px;
+    bottom: 50px;
+    animation: flutuar 2s cubic-bezier(1,-0.51,1,-0.63) infinite alternate;
 }
 .img-topo-site img{
     background-repeat: no-repeat;
@@ -267,7 +451,7 @@ section.quemSomos{
     position: relative; /* Para permitir o posicionamento dos elementos filhos */
     width: 600px;
     height: 360px;
-    background-image: url('/img/good-team-animate.svg'); 
+    background-image: url('img/good-team-animate.svg'); 
     background-size: cover; 
     background-position: center; 
    
@@ -285,6 +469,8 @@ section.quemSomos h1{
     text-align: center;
     letter-spacing: 2px;
     position: relative;
+    bottom: 70px;
+
     
 
     
@@ -311,8 +497,8 @@ section.quemSomos .flex  .txt-quem-somos p{
     flex-direction: column;
     align-items: center;
     position: relative;
-    left: 50px;
-    top:50px ;
+    left: 170px;
+    bottom: 20px;
     
 }
 .txt-quem-somos{
@@ -354,7 +540,7 @@ section.projeto .interface h2{
     font-family: var(--fonte-de-titulo);
     text-align: center;
     letter-spacing: 3px;
-    top: -100px;
+    bottom: 140px;
     
 
 }
@@ -383,7 +569,7 @@ section.resultados h2{
     font-family: var(--fonte-de-titulo);
     letter-spacing: 3px;
     position: relative;
-    top: -100px;
+    bottom: 120px;
 
 }
 

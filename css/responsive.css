@@ -1,113 +1,82 @@
-.menu-mobile nas ul li a{
-    color: black;
-    font-size: 18px;
-    font-family:var(--fonte-de-texto) ;
-    padding: 20px 4%;
-    text-decoration: none;
-    display: block;
-}
-.menu-mobile .abrir-menu{
-    width: 70%;
-}
 
-.btn-abrir-menu a img{
-    width: 30px;
-    height: 30px;
-
-}
-overlay-menu{
-    background-color: #d9d9d95e;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 88888;
-    display: none;
-}
-.menu-mobile{
-    background-color: #FFFFFF38;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 99999;
-    width: 0%;
-    overflow: hidden;
-    transition: .2s;
-}
-.menu-mobile nav ul{
-    text-align: right;
-}
-.menu-mobile nas ul li a{
-    color: black;
-    font-size: 18px;
-    font-family:var(--fonte-de-texto) ;
-    padding: 20px 4%;
-    display: block;
-}
-.menu-mobile nav ul li a:hover{
-    color: var(--footer);
-    transform: scale(1.05);
-
-}
-.menu-mobile .btn-fecahr{
-    padding: 20px 8%;
-}
-
-
-/*------------RESPONSIVIDADE-------------*/
-
-@media screen and (max-with: 1020px){
-
-
-    /*-------------Classes Gerais-----------*/
-    .flex{
-        display: flex;
-        gap: 2rem;
-
-    }
-
-    .topo-do-site .flex{
-        flex-direction: column;
-    }
-
-    /*-----------------CABEÇALHO--------------*/
-    .menu-desktop, .btn-contato{
-        display: none;
-    }
-
-    /*-------------TOPO-DO-SITE----------*/
-    section.topo-do-site .flex{
-        gap: 30px;
-    }
-
-    .btn-abrir-menu{
-        display: flex;
-    }
-    section.topo-do-site{
-        padding: 20px 8%;
-
-    }
-    .topo-do-site{
-        font-size: 30px;
-
-    }
-    .topo-do-site .img-topo-site img{
-        width: 100%;
-    }
-
+@media screen and (max-width: 1020px) {
+    
+    
+    
     /*--------------Quem-somos------------*/
+    
+    section.quemSomos .flex{
+        flex-direction: column;
+        
+    }
+    
+    section.quemSomos{
+        padding: 100px 10% 10% 10%;
+        
+        
+        
+    }
+    .foto1{
+        position: relative;
+        width: 330px;
+    height: 410px;
+    left: 100px;
+    object-fit: cover;
+    
+    
+}
+
+#frontImage[src*="micheline.png"] {
+    /* Define um tamanho específico para a segunda imagem */
+    height: auto;
+    position: relative;
+    bottom: -100px;
+    left: 120px;
+}
+.foto2{
+    width: 400px;
+}
+.container {
+    position: relative; /* Para permitir o posicionamento dos elementos filhos */
+    width: 400px;
+    height: 360px;
+    background-image: url('img/good-team-animate.svg'); 
+    background-size: cover; 
+    background-position: center; 
+    right: 50px;
+    
+}
+.img1{
+    position: absolute;
+    top: -100px; /* Ajusta a posição vertical da imagem da frente */
+    left: -20px;
+    
+}
+section.quemSomos .flex  .txt-quem-somos{
+    align-items: center;
+    justify-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0 10% 0 10%;
+    margin: auto;
+    text-align: center;
+}
+
+section.quemSomos .flex  .txt-quem-somos p{
+    margin: auto;
+    bottom: 5px;
+    text-align:justify;
+    font-size: 11px;
+    
+}
 
 
-   section.quemSomos{
-    padding: 20px 8%;
-   }
- 
 
- 
+
+
 
 
 
 }
+
 

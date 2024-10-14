@@ -1,16 +1,9 @@
-let Btnmenu = document.getElementById('btn-menu')
-let menu = document.getElementById('menu-mobile')
-let overlaymenu = document.getElementById('overlaymenu')
+let show = true;
+const menuContent = document.querySelector(".content");
+const menuToggle = menuContent.querySelector(".menu-toggle");
 
-Btnmenu.addEventListener('click', () =>{
-    menu.classList.add('abrir-menu')
-})
-
-menu.addEventListener('click',() =>{
-    menu.classList.remove('abrir-menu')
-
-})
-
-overlaymenu.addEventListener('click', () => {
-    menu.classList.remove('abrir-menu')
-})
+menuToggle.addEventListener('click', ()=>{
+    menuContent.classList.toggle('on', show);
+    show = !show;
+    
+});

@@ -502,21 +502,26 @@ section.quemSomos .flex  .txt-quem-somos p{
     
 }
 .txt-quem-somos{
-    font-size: 16px;
-   
+    font-size: clamp(14px, 2vw, 16px); /* Tamanho mínimo de 14px, ideal relativo a 2% da viewport, máximo de 16px */
     background-color: #ffffff44;
     flex-wrap: wrap;
-    
+    bottom: 20px;
     border-radius: 20px;
     text-align: center;
     padding: 20px;
     width: 1000px;
     height: 240px;
+
+    /* Propriedades adicionadas */
+    box-sizing: border-box; /* Inclui padding e borda no tamanho total */
+    overflow: hidden; /* Impede que o conteúdo ultrapasse os limites */
+    max-width: 100%; /* Limita a largura máxima */
+    max-height: 100%; /* Limita a altura máxima */
     
 }
 
 .txt-quem-somos p {
-    font-size: 16px;
+    font-size: clamp(14px, 2vw, 16px); /* Ajusta o tamanho da fonte para se adaptar */
     font-family: var(--fonte-de-texto);
     text-align: center;
     padding: 10px;
@@ -628,13 +633,3 @@ footer .border a{
     font-family: var(--fonte-de-texto);
     font-size: 2.5rem;
 }
-
-
-
-
-
-
-
-
-
-

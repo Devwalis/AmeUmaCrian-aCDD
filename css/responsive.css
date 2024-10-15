@@ -2,8 +2,78 @@
 @media screen and (max-width: 1020px) {
     
     
+
+
+
+
+    section.topo-do-site{
+        padding: 200px 4%;
+        background-color: var(--Home-color);
+       
+    }
+    
+    section.topo-do-site .flex{
+        flex-direction: column;
+        gap: 100px;
+       
+    
+    }
+    .img-topo-site img{
+        width:450px;
+        height: 240px;
+    }
+    .txt-topo-site p{
+        padding:  10px 10px;
+        letter-spacing: 1px;
+        white-space: pre-line;
+    }
+    
+    .btn-contato button:hover{
+        background-color:  var(--footer);
+        transform: scale(1.10);
+    
+    }
+    
+    .detalhe{
+       position:relative;
+       
+    }
     
     /*--------------Quem-somos------------*/
+
+    section.topo-do-site{
+    padding: 200px 4%;
+    background-color: var(--Home-color);
+   
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+   
+
+}
+.img-topo-site img{
+    width:350px;
+    height: 240px;
+}
+.txt-topo-site p{
+    padding:  10px 10px;
+    letter-spacing: 1px;
+    white-space: pre-line;
+}
+
+.btn-contato button:hover{
+    background-color:  var(--footer);
+    transform: scale(1.10);
+
+}
+
+.detalhe{
+   position:relative;
+   
+}
     
     section.quemSomos .flex{
         flex-direction: column;
@@ -11,7 +81,7 @@
     }
     
     section.quemSomos{
-        padding: 100px 10% 10% 10%;
+        padding: 100px 20% 10% 10%;
         
         
         
@@ -117,15 +187,69 @@ footer .logo-footer{
     
  
 }
-
-
-
-
-
-
-
-
-
+footer .logo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
+
+
+@media screen and (max-width: 460px) {
+
+    .detalhe1{
+        display: flex;
+        position: relative;
+        top: 110px;
+        right: 320px;
+        
+      
+    }
+
+    .content.on .list-menu {
+      
+        width: 40vw;
+        height: 590px;
+       
+      }
+     
+    }
+
+      section.quemSomos .flex .txt-quem-somos {
+        align-items: center;
+        justify-items: center;
+        max-width: 100%;
+        padding: 20px 10px 10px 20px;
+        max-height: 200%;
+       
+        margin: auto;
+        text-align: center;
+      }
+      .txt-quem-somos p{
+        text-align: center;
+        white-space:1px ;
+      }
+
+     .logo-footer {
+        
+        position:relative;
+       right: -550px;
+       
+       
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
 

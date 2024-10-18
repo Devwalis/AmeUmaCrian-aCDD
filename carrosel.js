@@ -1,6 +1,6 @@
 const Carrosel = {
     imagens: [
-        { id: '1', background: 'pet-care-animate.svg', front: 'turma.png' },
+        { id: '1', background: 'pet-care-animate.svg', front: 'turmaA.png' },
         { id: '2', background: 'good-team-animate.svg', front: 'andre.svg' },
         { id: '3', background: 'world-childrens-day-animate.svg', front: 'micheline.svg' },
         { id: '4', background: 'muslim-graduation-animate.svg', front: 'caio.svg' },
@@ -8,7 +8,8 @@ const Carrosel = {
         { id: '6', background: 'in-progress-animate.svg', front: 'milene.svg' },
         { id: '7', background: 'in-progress-animate.svg', front: 'joy.svg' },
         { id: '8', background: 'live-collaboration-animate.svg', front: 'michel.svg' },
-        { id: '9', background: 'live-collaboration-animate.svg', front: 'Luiza 1.svg' },
+        { id: '9', background: 'live-collaboration-animate.svg', front: 'luiza.png' },
+        { id: '10', background: 'world-childrens-day-animate.svg', front: 'gaby.png'}
     ],
     currentIndex: 0,
 
@@ -24,7 +25,7 @@ const Carrosel = {
             frontImage.src = `img/${this.imagens[this.currentIndex].front}`;
             frontImage.style.width = larguraPadrao;
             frontImage.style.height = alturaPadrao;
-        }, 1000); // Intervalo de 1 segundo
+        }, 3000); // Intervalo de 1 segundo
     }
 };
 
@@ -56,5 +57,6 @@ function proximo() {
 window.onload = function() {
     Carrosel.criar(); // Inicia o carrossel
     atualizarImagens(); // Exibe as primeiras imagens ao carregar a página
-    setInterval(proximo, 1000); // Muda as imagens a cada 1 segundo
+    setInterval(proximo, 3000); // Muda as imagens a cada 1 segundo
+    
 };

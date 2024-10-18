@@ -100,7 +100,7 @@ section.topo-do-site .flex{
         position: relative;
         width: 330px;
     height: 410px;
-    left: 100px;
+    left: 50px;
     object-fit: cover;
     
     
@@ -111,19 +111,22 @@ section.topo-do-site .flex{
     height: auto;
     position: relative;
     bottom: -100px;
-    left: 120px;
+    left: -120px;
 }
 .foto2{
+    display: flex;
+    position: relative;
     width: 400px;
+    left: 70px;
 }
 .container {
     position: relative; /* Para permitir o posicionamento dos elementos filhos */
-    width: 400px;
+    width: 300px;
     height: 360px;
     background-image: url('img/good-team-animate.svg'); 
     background-size: cover; 
     background-position: center; 
-    right: 50px;
+    left: -70px;
     
 }
 .img1{
@@ -167,11 +170,13 @@ section.resultados h2{
 }
 
 section.resultados .flex .container2{
+    position: relative;
     display: flex;
     flex-direction: row;
     gap: 10rem;
     justify-content: space-between;
-    flex-wrap: wrap;
+    left: 140px;
+   
 }
 footer{
     background-color: var(--footer);
@@ -213,6 +218,16 @@ footer .logo-footer{
         height: 590px;
        
       }
+      .container {
+        position: relative; /* Para permitir o posicionamento dos elementos filhos */
+       
+        height: 360px;
+        background-image: url('img/good-team-animate.svg'); 
+        background-size: cover; 
+        background-position: center; 
+        left: -20px;
+        
+    }
      
     }
 
@@ -238,7 +253,16 @@ footer .logo-footer{
        
        
       }
+      section.resultados .flex .container2{
+        left: 80px;
+       
     }
+
+
+
+      }
+
+    
 
 
 

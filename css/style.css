@@ -449,7 +449,7 @@ section.quemSomos{
 }
 .container {
     position: relative; /* Para permitir o posicionamento dos elementos filhos */
-    width: 700px;
+    width: 800px;
     height: 460px;
     background-image: url('img/good-team-animate.svg'); 
     background-size: cover; 

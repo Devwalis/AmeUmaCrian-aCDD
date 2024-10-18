@@ -8,7 +8,7 @@ const Carrosel = {
         { id: '6', background: 'in-progress-animate.svg', front: 'milene.svg' },
         { id: '7', background: 'in-progress-animate.svg', front: 'joy.svg' },
         { id: '8', background: 'live-collaboration-animate.svg', front: 'michel.svg' },
-        { id: '9', background: 'live-collaboration-animate.svg', front: 'luiza.png' },
+        { id: '9', background: 'live-collaboration-animate.svg', front: 'luiza.svg' },
         { id: '10', background: 'world-childrens-day-animate.svg', front: 'gaby.png'}
     ],
     currentIndex: 0,

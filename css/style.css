@@ -482,7 +482,7 @@ section.quemSomos .flex{
 section.quemSomos .flex  .txt-quem-somos{
     position: relative;
     left: 20px;
-    
+    overflow: auto;
     margin: 60px;
     flex-wrap: wrap;
     

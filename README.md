@@ -22,7 +22,7 @@ O site do projeto "Ame Como uma Criança" foi criado com o intuito de aumentar a
 ### Protótipo
 <img src="img/Protótipo.jpg" alt="Prótotipo do Projeto" width="1000"/>
 
-Link para o site [Amecomoumacrianca](https://kaigabriel12.pythonanywhere.com/)
+Link para o site [Amecomoumacrianca](https://ame-uma-crian-a-cdd.vercel.app/)
 
 ## Front-end
 ![HTML5](https://img.shields.io/badge/-HTML-black?logo=HTML5&style=social)

@@ -581,6 +581,7 @@ section.resultados h2{
 section.resultados .flex .container2{
     display: flex;
     flex-direction: row;
+    margin: auto;
     
     gap: 40rem;
     justify-content: space-between;
